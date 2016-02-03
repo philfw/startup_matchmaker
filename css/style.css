@@ -1,0 +1,175 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700|Merriweather:700,700italic|Oswald:700);
+
+/*GENERAL*/
+
+.clearfix::after {
+	content: ".";
+	visibility:hidden;
+	display:block;
+	height: 0;
+	clear: both;
+}
+
+body {
+	min-width:1061px;
+	height:100%;
+	margin:0;
+	font-family:'source sans pro', sans-serif;
+}
+
+.main-wrapper {
+	width:100%;
+	height:100%;
+	margin:0;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-image:url('../startup_matchmaker/images/coworking.jpg');
+}
+}
+
+/*COLORS & FONTS*/
+
+.merri {
+	font-family:'merriweather', serif;
+}
+
+.oswald {
+	font-family:'oswald', sans-serif;
+}
+
+.bold {
+	font-weight:700, 800;
+}
+
+.yellow {
+	background-color:#fdf731;
+}
+
+/*HEADER*/
+
+header {
+	width:100%;
+	height:70px;
+	background-color:#000;
+}
+
+.logo {
+	font-size:30px;
+	font-family:'merriweather', serif;
+	font-weight:bold;
+	color:#fdf731;
+	display:inline-block;
+	padding:20px 30px;
+}
+
+nav {
+	float:right;
+}
+
+nav ul li {
+	font-family:;
+	color:#FFF;
+	float:right;
+	display:block;
+	font-size:20px;
+	padding:25px 25px;
+}
+
+nav ul li a {
+	text-decoration:none;
+	color:#fff;
+}
+
+nav ul li:hover {
+	background-color:#c6c6c6;
+}
+
+.active {
+	background-color:;
+}
+
+/*FOOTER*/
+
+footer {
+	width:100%;
+	height:;
+}
+
+/*MAIN*/
+
+.main {
+	width:100%;
+	height:664px;
+	display:block;
+}
+
+.tagline {
+	border-top: solid 4px #fdf731;
+	background-color:#c6c6c6;
+	text-align:center;
+	height:70px;
+	padding-top:20px;
+	box-sizing:border-box;
+	font-family:'merriweather', serif;
+	font-weight:700;
+	font-style:italic;
+	font-size:25px;
+}
+
+ins {
+	text-decoration:none;
+	border-bottom:solid 2px #fdf731;
+}
+
+.mym {
+	background-color: rgba(255,255,255,.75);
+	font-family:'source sans pro', sans-serif;
+	line-height:180%;
+	float:right;
+	margin:30px 30px;
+	padding:40px 30px;
+	height:300px;
+	width:380px;
+	box-shading:2px 2px 2px #c6c6c6;
+	box-sizing:border-box;
+	text-align:center;
+}
+
+.mym h2 {
+	font-size:30px;
+	font-weight:700;
+	text-align:left;
+	margin-bottom:5px;
+}
+
+.mym p {
+	text-align:left;
+}
+
+.button {
+	text-align:center;
+	width:300px;
+	height:50px;
+	border-radius:5px;
+	padding-top:12px;
+	background-color:#c6c6c6;
+	font-family:'oswald', sans-serif;
+	margin: 35px auto;
+	box-sizing:border-box;
+	letter-spacing:1px;
+	box-shadow: 1px 1px 3px #c6c6c6;
+}
+
+/*3 COLUMNS*/
+
+.columns3 {
+	width:100%;
+	height:200px;
+	background-color:#FFF;
+	display:block;
+}
+
+.column {
+	display:inline-block;
+	width:33.33%;
+}
